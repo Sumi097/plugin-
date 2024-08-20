@@ -1,0 +1,143 @@
+/* common part */
+.counterh5{
+    color: blue;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: center;
+ }
+/* common part */
+/* slick start  */
+.item {
+    width: 97%;
+  }
+  .slick-slide img {
+    display: block;
+    width: 100%;
+  }
+  /* Arrows */
+  .slick-prev,
+  .slick-next
+  {
+      font-size: 0;
+      line-height: 0;
+      position: absolute;
+      top: 50%;
+      display: block;
+      width: 25px;
+      height: 25px;
+      padding: 0;
+      -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      cursor: pointer;
+      color: #ca3838;
+      border: none;
+      border-radius:50% ;
+      outline: none;
+      background: #000000;
+  }
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus
+  {
+      color: #fff;
+      outline: none;
+      background: black;
+  }
+  .slick-prev:hover:before,
+  .slick-prev:focus:before,
+  .slick-next:hover:before,
+  .slick-next:focus:before
+  {
+      opacity: 1;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before
+  {
+      font-family: 'slick';
+      font-size: 20px;
+      line-height: 1;
+      opacity: 1;
+      color: white;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .slick-prev
+  {
+      left: -25px;
+  }
+  [dir='rtl'] .slick-prev
+  {
+      right: -25px;
+      left: auto;
+  }
+  .slick-prev:before
+  {
+      content: '<';
+  }
+  [dir='rtl'] .slick-prev:before
+  {
+      content: '>';
+  }
+  
+  .slick-next
+  {
+      right: -25px;
+  }
+  [dir='rtl'] .slick-next
+  {
+      right: auto;
+      left: -25px;
+  }
+  .slick-next:before
+  {
+      content: '>';
+  }
+  [dir='rtl'] .slick-next:before
+  {
+      content: '<';
+  }
+  /* slick end  */
+  /* owl start  */
+  .owl_pic{
+  width: 90%;
+  margin: auto;
+  }
+ 
+  /* owl start end */
+  .itemone{
+
+width: 50%;
+
+margin: auto;
+
+}
+.height{
+
+margin-top: 29%;
+}
+  
+ .element {
+    width: 500px;
+    height: 320px;
+    left: 53%;
+    top: 0;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    background-color: #d5e1e8;
+    background-image: url(../image/image1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+ 
+#demo {
+	width: 1000px;
+	margin: 0 auto;
+}
+.lead { font-size: 1.5rem; font-weight: 300; }
+.container { margin: 30px auto; max-width: 1000px; }
